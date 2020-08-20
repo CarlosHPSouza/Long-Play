@@ -1,0 +1,244 @@
+/* Menu */
+.menu {
+  background: #252525;
+  padding: 15px 0;
+}
+.menu-logo {
+  font-family: "Bungee Inline", cursive;
+  font-size: 30px;
+  color: #551a8b;
+  text-decoration: none;
+}
+.menu-nav {
+  flex: 1;
+  margin: 0 20px;
+  align-self: center;
+}
+.menu-nav a {
+  font-family: "Bungee Inline", cursive;
+  font-size: 15px;
+  color: #551a8b;
+}
+.menu-nav a:hover {
+  color: white;
+}
+.menu-nav ul {
+  float: right;
+  display: flex;
+}
+.menu-nav ul li a {
+  padding: 30px;
+  text-decoration: none;
+}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .menu-logo {
+    margin: 0 25px;
+  }
+}
+@media (max-width: 739px) {
+  .container {
+    flex-direction: column;
+    max-width: 330px;
+  }
+  .menu-nav {
+    margin: 0px;
+    padding-top: 10px;
+  }
+  .menu-logo {
+    margin: 0px;
+  }
+  .menu-nav ul li a {
+    padding-left: 0px;
+  }
+}
+/* Intro */
+.intro {
+  background: url("../img/local-1.jpg") no-repeat center;
+  background-size: cover;
+  color: #252525;
+  padding: 250px 0;
+  text-align: center;
+}
+.intro h1 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 40px;
+}
+/* Produtos */
+.produtos h1 {
+  border-bottom: 2px solid #551a8b;
+}
+.produtos {
+  max-width: 960px;
+  margin: 60px auto;
+}
+.produtos h1 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 40px;
+  color: #551a8b;
+  margin: 0 10px 60px 10px;
+}
+.produtos h2 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 40px;
+  background: #252525;
+  padding: 60px;
+}
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+.produtos-item img {
+  width: 300px;
+}
+.red {
+  border-top: 8px solid #c72d23;
+  color: #c72d23;
+}
+.blue {
+  border-top: 8px solid #7d473a;
+  color: #7d473a;
+}
+.yellow {
+  border-top: 8px solid #019eb8;
+  color: #019eb8;
+}
+.titulo {
+  font-family: "Bungee Inline", cursive;
+  font-size: 40px;
+  color: #551a8b;
+  margin: 0 10px 60px 10px;
+}
+.produtos-vinil {
+  justify-content: space-around;
+}
+.card img {
+  width: 250px;
+  height: 250px;
+  border: 5px solid #252525;
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .produtos-item img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card:nth-child(1n + 2) {
+    display: none;
+  }
+}
+@media (max-width: 739px) {
+  .produtos-vinil {
+    max-width: 300px;
+  }
+  .produtos-item img {
+    width: 360px;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card:nth-child(1n + 2) {
+    display: none;
+  }
+}
+/* Lojas */
+.locais-item {
+  margin-bottom: 40px;
+}
+.locais-img,
+.locais-info {
+  flex: 1;
+  margin: 0 10px;
+}
+.locais-img img {
+  display: block;
+  max-width: 100%;
+}
+.locais-item h2 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 30px;
+  color: #551a8b;
+  margin-bottom: 20px;
+}
+.locais-item p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #252525;
+  margin-bottom: 40px;
+}
+.locais-item a {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}
+.locais-item a:hover {
+  color: #551a8b;
+}
+@media (max-width: 739px) {
+  .locais-item h2 {
+    margin-top: 20px;
+  }
+}
+/* Footer */
+.footer {
+  width: 100%;
+  background: #252525;
+  color: white;
+  padding: 20px 0;
+}
+.footer h3 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 18px;
+  color: white;
+}
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #551a8b;
+  margin: 6px 0 12px;
+}
+.footer-contato ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-rede img {
+  width: 30px;
+}
+.footer-rede ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-rede ul li a {
+  border: 3px solid #551a8b;
+  display: block;
+  padding: 10px;
+}
+.footer-rede ul li a:hover {
+  border-color: #fff;
+}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .footer-rede img {
+    width: 20px;
+  }
+}
+@media (max-width: 739px) {
+  .footer h3 {
+    margin-top: 15px;
+  }
+}
