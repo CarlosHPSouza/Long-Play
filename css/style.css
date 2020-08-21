@@ -30,7 +30,7 @@
   padding: 30px;
   text-decoration: none;
 }
-@media only screen and (min-width: 788px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .menu-logo {
     margin: 0 25px;
   }
@@ -126,7 +126,7 @@
   justify-content: center;
   padding: 20px;
 }
-@media only screen and (min-width: 788px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .produtos-item img {
     width: 100%;
   }
@@ -232,9 +232,12 @@
 .footer-rede ul li a:hover {
   border-color: #fff;
 }
-@media only screen and (min-width: 788px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .footer-rede img {
     width: 20px;
+  }
+  .footer-rede ul li {
+    margin-right: 5px;
   }
 }
 @media (max-width: 739px) {
